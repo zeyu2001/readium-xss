@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId">
+    <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/">
+        <meta name="cover" content="cover"/>
+    </metadata>
+    <manifest>
+        <item id="home" href="html/home.xhtml" media-type="application/xhtml+xml"  properties="scripted" />
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="home" />
+    </spine>
+    <guide>
+        <reference type="cover" title="Cover" href="html/home.xhtml" />
+    </guide>
+</package>
